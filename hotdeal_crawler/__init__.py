@@ -10,10 +10,14 @@ from .manager import HotDealCrawlerManager
 
 # 사이트별 크롤러 가져오기
 from .site_crawlers.ruliweb_crawler import RuliwebCrawler
+from .site_crawlers.coolenjoy_crawler import CoolenjoyCrawler
+from .site_crawlers.ppomppu_crawler import PPomppuCrawler
 
 __all__ = [
     'HotDealItem',
     'BaseCrawler',
     'HotDealCrawlerManager',
     'RuliwebCrawler',
+    'CoolenjoyCrawler',
+    'PPomppuCrawler',
 ]

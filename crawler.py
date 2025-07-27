@@ -59,6 +59,7 @@ def save_to_json(deals: List[HotDealItem], site_name: str = None):
     deals_dict = []
     for deal in deals:
         deal_dict = {
+            "idx": deal.idx,
             "title": deal.title,
             "url": deal.url,
             "price": deal.price,
